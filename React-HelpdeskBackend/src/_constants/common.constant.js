@@ -1,0 +1,16 @@
+export const commonConstant = {
+    CATEGORY_TYPE: 1,
+    FOLDER_TYPE: 2,
+    ARTICLE_TYPE: 3,
+    CategorytitleCount:255,
+    CategorydescriptionCount:60,
+    CategorymetaCount:60,
+    CategorymetsdescCount:160,
+    FoldertitleCount:255,
+    FolderdescriptionCount:100,
+    FoldermetaCount:60,
+    FoldermetsdescCount:160,
+    ArticletitleCount:30,
+    ArticlemetaCount:60,
+    ArticlemetsdescCount:160,
+};

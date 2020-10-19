@@ -1,0 +1,525 @@
+
+
+  @media (min-width: 1921px) {
+    .main-container {
+        width: 1440px;
+    }
+  }  
+
+  
+  
+  
+  @media (max-width: 1441px) {
+
+
+    span.gridTileOption { width: 38px; height: 38px; line-height: 38px;}
+    .btnBlue {font-size: 14px;padding: 7px 20px;}
+    .popup{width: 450px;}
+    .click-Search-cat{top: 4px;}
+    .card-body{min-height: auto;}
+    .btnWhite {font-size: 14px;padding: 7px 20px;}
+    .rightPanelHeader>ul>li>span.circlebtn {width: 35px; height: 35px;line-height: 30px;}
+
+    /*---------- organation start css ------------- */
+    .lapy-img-data {width: 430px;}
+    .website-in-lapy {left: 65px;top: 13px;width: 300px; height: 192px;}
+    .container-lapy {width: calc(100% - 40px);} 
+    .lapy-html-view .bgSpace {height: 50px;}
+    .lapy-html-view .bgSpace p {font-size: 6px;}
+    .lapy-html-view .brandLogo img {width: 15px;}
+    .lapy-html-view .brandLogo {width: 35px;height: 35px;border-radius: 8px;top: 10px;}
+    .lapy-html-view .headingTitleSearch .headingTitleSearch-details h2 {font-size: 9px;}
+    .lapy-html-view .headingTitleSearch .headingTitleSearch-details p{font-size: 7px;}
+    .lapy-html-view .tiles-box .tiles-icon {width: 25px;margin-right: 5px;height: 25px;line-height: 25px;}  
+    .lapy-html-view .tiles-box .tiles-details {width: calc(100% - 30px);}
+    .lapy-html-view .tiles-box {border-radius: 10px;padding: 10px 5px;}
+    .lapy-html-view .tiles-details h5.card-title{font-size: 8px;margin-bottom: 2px;}
+    .lapy-html-view .tiles-details p {font-size: 6px;}
+    .right-lapy-frame .front-lapy-scree-1 {height: 240px;}
+    .lapy-img-data-right .website-in-lapy {height: 212px;}
+    .organisation{top: 49%;}
+    .color-thems-select>ul>li{width: 35px; height: 35px;}
+    .color-thems-select>ul>li:last-child span{line-height: 33px;}
+    /*---------- organation end css ------------- */
+
+  }
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  @media (min-width: 1280px) and (max-width: 1440px) {
+    
+    
+    /*-----right panel section----*/
+    .article-right-col-2 {max-width: 380px; min-width: 380px; } 
+    /* .rightPanelSection{ width: 26%;} */
+    .rightPanelArticle { width: auto !important;}
+
+  }
+  
+
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    .card-body { min-height: auto;}
+
+
+
+
+    /*-----right panel section----*/
+    .article-right-col-2 {max-width: 380px; min-width: 380px; } 
+    /* .rightPanelSection{ width: 26%;} */
+    .rightPanelArticle { width: auto !important;}
+
+
+
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .desktop-hide{display: none}
+  .mobile-show{display: block}
+
+
+  .headerSearch { width: 250px;}
+  /*-------- End User Feedback Responsive ----------*/
+
+
+
+
+  .card-body { min-height: auto;}
+
+  .headingLeft h4 { font-size: 34px;}
+  .ParaLeft p { font-size: 14px;}
+  .form-login-signup {padding: 10px 20px;border-radius: 19px;}
+  .dont-have-an-account p{font-size: 11px;}
+  .form-login-signup .md-form>input{height: 50px;}
+  .form-login-signup .md-form.md-outline label{ transform: translateY(16px); -webkit-transform: translateY(16px); -moz-transform: translateY(16px); -ms-transform: translateY(16px); -o-transform: translateY(16px); }
+
+  /*----------start Desk page responsive-----------------*/
+  .wrapperInfo .advancesettingdropdesign .uplloadLogoRight{width: 100%;}
+  .wrapperInfo .advancesettingdropdesign .uploadLogoContent{display: none;}
+  .customeTabsContent .wrapperInfo .mobile-height-auto{height: auto;}
+  /*----------end Desk page responsive-----------------*/
+
+  /*------------------ botomFooter start responsive ------------------------*/
+  .socialLinks a{width: 1.3rem;}
+  .socialLinks a span svg {width: 14px;height: 14px;}
+  .newsicon img{width: 14px !important; height: 14px !important;}
+  .bottom-footer-nav .nav li { font-size: 12px;}
+  /*------------------ botomFooter end responsive ------------------------*/
+
+
+
+
+
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    
+
+
+    
+    
+  }
+  
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+    
+    .desktop-hide{display: none}
+    .mobile-show{display: block}
+    .mobilr-center{text-align: center;}
+    .headerSearch { width: 250px;}
+    .mobile-menu{ display: block;}
+    /*-------- End User Feedback Responsive ----------*/
+
+
+    /*---- start class name ---*/  
+    .d-xs-none {display: none !important;}
+    p.card-body-text {font-size: 12px;}
+    p.text-mutede{font-size: 14px;}
+    /*---- end class name ---*/ 
+
+    .knowledge-row {width: 100%;}
+    span.gridTileOption {width: 35px; height: 35px;line-height: 35px;}
+    .categoryHeaderLeft a.btnWhite{font-size: 14px;padding: 0;width: 35px;height: 35px;display: inline-block;text-align: center;line-height: 35px;}
+    .categoryHeaderLeft a.btnWhite span:nth-child(2){display: none;}
+
+
+    /*------------------ start login and signup design responsive ------------------------*/  
+    .logo-section > img{height: 55px;}
+    .login-signup{height: auto;}
+    .designCenterLogin {position: relative;left: auto;top: auto;transform: inherit;margin: 30px auto;}
+    .loginFooterReview {position: relative;bottom: 0;}
+    .review-companies {margin: auto;padding: 0;}
+    .reviewcompaniesimg{width: 60px;}
+    .registrationImgFilter .reviewcompaniesimg img {height: 15px;}  
+    .headingLeft h4{font-size: 34px;}
+    .ParaLeft p {font-size: 14px;}
+    .form-login-signup{padding: 30px 20px;}
+    .headingLeft{margin-bottom: 1rem !important;}
+    /*------------------ start login and signup design responsive ------------------------*/
+
+      /*------------------ start oraganition design responsive ------------------------*/
+    .organisation {top: auto;left: auto;position: inherit;width: 100%;transform: inherit;}
+    .organisation .create-categroy-feilds {width: 100%;margin: auto;}
+    .review-getstartes .reviewcompanieswrapper{flex: 0 0 49%;max-width: 50%;padding: 0 0;margin: 5px 0;}
+    .reviewcompanieswrapper::before {content: "";background: rgba(0, 0, 0, 0.1);height: 1px;bottom: 0;width: 90%;position: absolute;left: 0;margin: auto;bottom: 0;bottom: -9%;right: 0;}
+    .review-getstartes .reviewcompaniesimg{ width: 100%;}
+    .review-getstartes .reviewcompanieswrapper:after {content: "";left: 100%;}
+    .review-getstartes .star-rating>span{margin: auto;text-align: center;left: 0px;}
+    .review-getstartes .star-rating:before{margin: auto;}
+    .lapy-img-data {width: 100%;}
+    .website-in-lapy {left: 51px;top: 9px;width: 225px;height: 147px;overflow-y: auto;}
+    .review-getstartes .star-rating {width: 100px;margin: auto;}
+    /*------------------ end oraganition responsive ------------------------*/
+
+    /*------------------ start dashbord ------------------------*/
+    .left-sidebar{display: none; width: 50px;}
+    .mobileAddClass .left-sidebar{display: block;}
+    .topbar {width: calc(100% - 0px);margin-left: 0;}
+    .mobileAddClass .topbar {width: calc(100% - 50px);margin-left: 50px;}
+    .botomFooter {width: calc(100% - 0px);margin-left: 0;}
+    .mobileAddClass .botomFooter {width: calc(100% - 50px);margin-left: 50px;}
+    .page-wrapper{margin-left: 0;}
+    .mobileAddClass .page-wrapper{margin-left: 50px;}
+    /*------------------ end dashbord ------------------------*/
+
+    /*------------------ botomFooter start responsive ------------------------*/
+    .botomFooter{position: relative;padding: 15px 10px; }
+    .bottom-footer-nav .nav li a {padding: 0 6px;font-size: 12px;}
+    .bottom-footer-nav .nav li {font-size: 10px;}
+    .socialLinks a span svg {width: 14px;height: 14px;}
+    .newsicon img{width: 16px !important;}
+    /*------------------ botomFooter end responsive ------------------------*/
+
+    /*------------------ Congratulations start ------------------------*/
+    .card-body-create-knowledge{width: calc(100% - 0px);}
+    /*------------------ Congratulations end ------------------------*/
+
+    /*-----------right panel start  responsive----------*/
+    .rightPanelArticle {width: 100%;} 
+    .rightPanelArticle .article-right-col-1{width: calc(100% - 63px);}
+    .article-right-col-1 {width: 100%;}
+    .rightPanelSection{ width: 100%;}
+    .article-right-col-2 {max-width: calc(100% - 63px);min-width: calc(100% - 63px);position: absolute;width: calc(100% - 63px);z-index: 1;}
+    /*-----------right panel end responsive----------*/
+
+
+    /*----------start folder page responsive-----------------*/
+    .makeinFolder {padding: 15px 15px;align-items: center;}
+    .folder-row .icon-Pagetitle {display: block;}
+    .folder-row .makeinFolder-col-0 {width: 80px;display: inline-flex;}
+    .folder-row .makeinFolder-col-1 {width: 250px;margin-right: 0px;}
+    .folder-row .makeinFolder-col-2 {width: auto;margin: 0px 5px;}
+    .folder-row .makefolder-list-icon .icon {margin-right: 10px;}
+    .folder-row .user-Name{display: none;}
+    .folder-row .user-image{margin: 0;}
+    .user-image, .user-image img{width: 35px;height: 35px;}
+    .folder-row .userUpdates>ul>li:last-child .icon{margin-right: 0px;}
+    /*----------end folder page responsive-----------------*/
+
+    /*----------start Article page responsive-----------------*/
+    .article-row{position: relative;display: block;margin-bottom: 20px; border: 1px solid #e8e8e8; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.13); background: #fff !important;}
+    .article-row .makeinFolder-col-1 {width: 100%;margin-right: 0;padding-top: 20px;}
+    .article-row .makefolder-col h6.card-title{max-width: 100%;}
+    .article-row .folder-name p.card-body-text{position: absolute;bottom: 10px;}
+    .article-row .makeinFolder-col-2 .user-image, .article-row .makeinFolder-col-2 .user-Name{display: none;}
+    .article-row .makeinFolder-col-2 .folder-Right-btn{position: absolute; left: 100px; top: 17px;}
+    .article-row .makeinFolder-col-2 .folder-Right-btn button{padding: 2px 20px;font-size: 13px;}
+    .article-row .makeinFolder-col-3 { margin-left: auto; margin-bottom: 20px; margin-top: 10px;}
+    .article-row .user-Name {width: calc(100% - 45px);}
+    .article-row .makefolder-user-Feedback-list{display: block;}
+    .article-row .makefolder-list-left {margin-right: 0;}
+    .article-row .makefolder-list-right{position: absolute;right: 15px;top: 15px;}
+    .article-row .makefolder-edit-view-icon .icon{margin-right: 5px;}
+    .userUpdates>ul>li:last-child .icon{margin-right: 0px;}
+    .article-row .makefolder-list-icon .icon {margin-right: 20px;}
+    .article-row .userFeedBackView>ul>li:last-child .icon{margin-right: 0px;}
+    .article-row .makefolder-list-icon .icon>span {font-size: 12px;padding-left: 5px;}
+    /*----------end Article page responsive-----------------*/
+
+    /*----------start Desk page responsive-----------------*/
+    .desk-setting-listing-options>ul>li {width: 100%;}
+    .knowledgeBaseSettings .left-information-radio p.text-mutede {font-size: 14px;}
+    .knowledgeBaseSettings .left-information-radio p.card-body-text {font-size: 12px;}
+    .customeTabsContent .wrapperInfo{margin-bottom: 1rem;}
+    .right-information-radio .material-switch span.card-body-text{display: none;}
+    .wrapperInfo .advancesettingdropdesign {height: auto;}
+    .wrapperInfo .advancesettingdropdesign .uploadLogoContent{display: none;}
+    .wrapperInfo .advancesettingdropdesign .uplloadLogoRight{width: 100%;}
+    .customeTabsContent div.row.mb-4{margin-bottom: 0px !important;}
+    .uplloadLogoRight>div>p {font-size: 12px;color: #bbb;}
+    .advancesettingdropdesign{padding: 10px !important;}
+    .advancesettingdropdesign>img.filedrgImg{margin-right: 0;}
+    .customeTabsContent .wrapperInfo .mobile-height-auto{height: auto;}
+    /*----------end Desk page responsive-----------------*/ 
+    
+
+
+
+    
+}
+  
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+
+  body{padding-bottom: 0px !important;}
+  .mobile-menu{ display: block;}
+  .mobilr-center{text-align: center;}
+  .feedBackSection{width: 320px;}
+  .category-col.category-col{min-height: auto;}
+
+  /*---- start class name ---*/  
+  .d-xs-none {display: none !important;}
+  .mobile-show{display: block !important;}
+  p.card-body-text {font-size: 12px;}
+  p.text-mutede{font-size: 14px;}
+  /*---- end class name ---*/  
+    
+  .mobile-add-btn .split-btn .navbarDropdown{ transform: translate3d(-260px, -85px, 0px) !important; -webkit-transform: translate3d(-260px, -85px, 0px) !important; -moz-transform: translate3d(-260px, -85px, 0px) !important; -ms-transform: translate3d(-260px, -85px, 0px) !important; -o-transform: translate3d(-260px, -85px, 0px) !important; }
+  .knowledge-row {width: 100%;}
+  span.gridTileOption {width: 35px; height: 35px;line-height: 35px;}
+  .categoryHeaderLeft a.btnWhite{font-size: 14px;padding: 0;width: 35px;height: 35px;display: inline-block;text-align: center;line-height: 35px;}
+  .categoryHeaderLeft a.btnWhite span:nth-child(2){display: none;}
+  .mobile-search{position: fixed; left: 0;right: 0;top: 50px;z-index: 9; width: 90% !important;text-align: center;margin: auto;}
+
+  /*------------------ start login and signup design responsive ------------------------*/  
+  .logo-section > img{height: 34px;}
+  .login-signup{height: auto;}
+  .designCenterLogin {position: relative;left: auto;top: auto;transform: inherit;margin: 30px auto;}
+  .loginFooterReview {position: relative;bottom: 0;}
+  .review-companies {margin: auto;padding: 0;}
+  .reviewcompaniesimg{width: 60px;}
+  .registrationImgFilter .reviewcompaniesimg img {height: 15px;}
+  .headingLeft h4{font-size: 34px;}
+  .ParaLeft p {font-size: 14px;}
+  .form-login-signup{padding: 30px 20px;}
+  .headingLeft{margin-bottom: 1rem !important;}
+  /*------------------ start login and signup design responsive ------------------------*/
+
+  /*------------------ start oraganition design responsive ------------------------*/
+  .organisation {top: auto;left: auto;position: inherit;width: 100%;transform: inherit;}
+  .organisation .create-categroy-feilds {width: 100%;margin: auto;}
+  .review-getstartes .reviewcompanieswrapper{flex: 0 0 49%;max-width: 50%;padding: 0 0;margin: 5px 0;}
+  .reviewcompanieswrapper::before {content: "";background: rgba(0, 0, 0, 0.1);height: 1px;bottom: 0;width: 90%;position: absolute;left: 0;margin: auto;bottom: 0;bottom: -9%;right: 0;}
+  .review-getstartes .reviewcompaniesimg{ width: 100%;}
+  .review-getstartes .reviewcompanieswrapper:after {content: "";left: 100%;}
+  .review-getstartes .star-rating>span{margin: auto;text-align: center;left: 0px;}
+  .review-getstartes .star-rating:before{margin: auto;}
+  .lapy-img-data {width: 100%;}
+  .website-in-lapy {left: 53px;top: 9px;width: calc(100% - 105px);height: 169px;overflow-y: auto;}
+  .review-getstartes .star-rating {width: 100px;margin: auto;}
+  /*------------------ end oraganition responsive ------------------------*/
+
+  /*------------------ start dashbord ------------------------*/
+  .sidebarnavChild{left: 50px;}
+  .left-sidebar{display: none; width: 50px;}
+  .mobileAddClass .left-sidebar{display: block;}
+  .topbar {width: calc(100% - 0px);margin-left: 0;}
+  .mobileAddClass .topbar {width: calc(100% - 50px);margin-left: 50px;}
+  .botomFooter {width: calc(100% - 0px);margin-left: 0;}
+  .mobileAddClass .botomFooter {width: calc(100% - 50px);margin-left: 50px;}
+  .page-wrapper{margin-left: 0px;}
+  .mobileAddClass .page-wrapper{margin-left: 50px;}
+  .mobile-add-btn{ position: fixed;bottom: 100px;right: 30px;z-index: 99;}
+  .mobile-add-btn button.split-btn-left{display: none;}
+  .mobile-add-btn button.split-btn-right > svg{display: none;}
+  .mobile-pluse{display: block;}
+  .mobile-add-btn .split-btn-right{ padding: 0; width: 60px; height: 60px; border-radius: 200px 200px 80px 200px; -webkit-border-radius: 200px 200px 80px 200px; -moz-border-radius: 200px 200px 80px 200px; -ms-border-radius: 200px 200px 80px 200px; -o-border-radius: 200px 200px 80px 200px; }
+  /*------------------ end dashbord ------------------------*/
+
+  /*------------------ botomFooter start responsive ------------------------*/
+  .botomFooter{position: relative;padding: 15px 10px; }
+  .bottom-footer-nav .nav li a {padding: 0 6px;font-size: 12px;}
+  .bottom-footer-nav .nav li {font-size: 10px;}
+  .socialLinks a span svg {width: 14px;height: 14px;}
+  .newsicon img{width: 16px !important;}
+  /*------------------ botomFooter end responsive ------------------------*/
+
+  /*------------------ Congratulations start ------------------------*/
+  .card-body-create-knowledge{width: calc(100% - 0px);}
+  /*------------------ Congratulations end ------------------------*/
+
+  /*-----------right panel start  responsive----------*/
+  .article-Right_menu{    max-width: 43px;min-width: 43px;}
+  .rightPanelArticle {width: 100%;} 
+  .article-right-col-1 {width: 100%;}
+  .rightPanelArticle .article-right-col-1{width: calc(100% - 43px);}
+  .rightPanelSection{ width: 100%;}
+  .article-right-col-2 {max-width: calc(100% - 43px);min-width: calc(100% - 43px);position: absolute;width: calc(100% - 43px);z-index: 1;}
+  .md-form.md-form-custom label.activeselected{display: inherit;}
+  .rightPanelRightMenu{width: 43px;}
+  .helps{right: 43px;bottom: 110px;}
+  /*-----------right panel end responsive----------*/
+
+  /*----------start folder page responsive-----------------*/
+  .folder-row{position: relative; margin-bottom: 10px; border: 1px solid #e8e8e8; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.13); background: #fff !important;}
+  .makeinFolder {padding: 15px 15px;align-items: center;}
+  .folder-row .icon-Pagetitle {display: none;}
+  .folder-row .makeinFolder-col-0 {width: 50px;display: inline-flex;}
+  .folder-row .makeinFolder-col-1 {width: 165px;margin-right: 0px;}
+  .folder-row .makeinFolder-col-2 {width: auto;margin: 0px 5px;}
+  .folder-row .makefolder-list-icon .icon {margin-right: 5px;}
+  .folder-row .user-Name{display: none;}
+  .folder-row .user-image{margin: 0;}
+  .user-image, .user-image img{width: 35px;height: 35px;}
+  .folder-row .userUpdates>ul>li:last-child .icon{margin-right: 0px;}
+  .botomFooter > .row-footer-bootom{margin: 0 !important;} 
+  /*----------end folder page responsive-----------------*/
+
+
+
+    /*----------start Category page responsive-----------------*/
+    .inner-no-folder-add { position: relative; left: auto; top: auto; transform: inherit; width: 100%; height: auto; cursor: pointer;}
+    /*----------end Category page responsive-----------------*/
+    
+
+
+  /*----------start Article page responsive-----------------*/
+  .article-row{position: relative;display: block;margin-bottom: 20px; border: 1px solid #e8e8e8; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.13); background: #fff !important;}
+  .article-row .makeinFolder-col-1 {width: 100%;margin-right: 0;padding-top: 20px;}
+  .article-row .makefolder-col h6.card-title{max-width: 100%;}
+  .article-row .folder-name p.card-body-text{position: absolute;bottom: 10px;}
+  .article-row .makeinFolder-col-2 .user-image, .article-row .makeinFolder-col-2 .user-Name{display: none;}
+  .article-row .makeinFolder-col-2 .folder-Right-btn{position: absolute; left: 100px; top: 17px;}
+  .article-row .makeinFolder-col-2 .folder-Right-btn button{padding: 2px 20px;font-size: 13px;}
+  .article-row .makeinFolder-col-3 { margin-left: auto; margin-bottom: 20px; margin-top: 10px;}
+  .article-row .user-Name {width: calc(100% - 45px);}
+  .article-row .makefolder-user-Feedback-list{display: block;}
+  .article-row .makefolder-list-left {margin-right: 0;}
+  .article-row .makefolder-list-right{position: absolute;right: 15px;top: 15px;}
+  .article-row .makefolder-edit-view-icon .icon{margin-right: 5px;}
+  .userUpdates>ul>li:last-child .icon{margin-right: 0px;}
+  .article-row .makefolder-list-icon .icon {margin-right: 20px;}
+  .article-row .userFeedBackView>ul>li:last-child .icon{margin-right: 0px;}
+  .article-row .makefolder-list-icon .icon>span {font-size: 12px;padding-left: 5px;}
+  /*----------end Article page responsive-----------------*/
+
+  /*----------start Desk page responsive-----------------*/
+  .desk-setting-listing-options>ul>li {width: 100%;}
+  .desk-setting-listing-options>ul>li:last-child{margin-bottom: 0;}
+  .knowledgeBaseSettings .left-information-radio p.text-mutede {font-size: 14px;}
+  .knowledgeBaseSettings .left-information-radio p.card-body-text {font-size: 12px;}
+  .customeTabsContent .wrapperInfo{margin-bottom: 1.5rem;}
+  .right-information-radio .material-switch span.card-body-text{display: none;}
+  .wrapperInfo .advancesettingdropdesign {height: auto;}
+  .wrapperInfo .advancesettingdropdesign .uploadLogoContent{display: none;}
+  .wrapperInfo .advancesettingdropdesign .uplloadLogoRight{width: 100%;}
+  .customeTabsContent div.row.mb-4{margin-bottom: 0px !important;}
+  .customeTabsContent .wrapperInfo .mobile-height-auto{height: auto;}
+  .desk-setting-listing-options>ul>li .desk-list-para-icon { border: 1px solid #a9d6fa;background: #eff8ff;}
+  /*----------end Desk page responsive-----------------*/
+
+  /*----------start Privacy Policye responsive-----------------*/
+  .profile-manage-side { max-width: 45px; min-width: 45px; width: 100%; max-height: 45px; min-height: 45px; height: 100%;}
+  /*----------end Privacy Policye responsive-----------------*/
+
+  /*----------start Profile responsive-----------------*/
+  .profile-settings-rightpanel .wrapperInfo{ margin-bottom: 15px; }
+  /*----------end Profile responsive-----------------*/
+
+  /*----------start help Portal responsive-----------------*/
+  .knowledgeBase-tabs{display: flex; align-items: center;  overflow-x: auto;}
+  .knowledgeBase-tabs .card-header-tabs{  display: flex;  align-items: center;  justify-content: center;  flex-wrap: unset;}
+  .knowledgeBase-tabs .nav-tabs .nav-item{  width: 250px;  text-align: center;}
+  .categoryHeaderRight-Seetings{  position: absolute;  left: 20px;  top: -35px;}
+  /*----------end help Portal responsive-----------------*/
+
+
+  /*----------start popup responsive-----------------*/
+  .popup{ width: 95%;}
+  .popupbtn { min-width: 140px;font-size: 12px;}
+  /*----------end popup responsive-----------------*/
+
+
+  /*----------start tooltip responsive-----------------*/
+  .categoryHeaderRight>ul>li .tooltipCustome {right: 0;}
+  span.tooltipCustome:before {right: 10px;left: auto;}
+  /*----------end tooltip responsive-----------------*/
+
+  .inner-no-folder-add{
+    position: relative;
+    left: auto;
+    top: auto;
+    transform: initial;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+  }
+
+
+
+  
+
+
+
+    
+}
+
+
+
+
+
+
+
+@media (min-width: 220px) and (max-width: 375px) {
+
+.website-in-lapy {
+  left: 48px;
+  top: 9px;
+  width: calc(100% - 95px);
+  height: calc(100% - 28px);
+  overflow-y: auto;
+}
+
+
+.inner-no-folder-add{
+  position: relative;
+  left: auto;
+  top: auto;
+  transform: initial;
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.inner-no-folder-add {
+  position: relative;
+  left: auto;
+  top: auto;
+  transform: inherit;
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+
+
+}
+

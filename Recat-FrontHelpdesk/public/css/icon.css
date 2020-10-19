@@ -1,0 +1,223 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "knowlegebasecustom";
+  src:url("../fonts/knowlegebasecustom.eot");
+  src:url("../fonts/knowlegebasecustom.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/knowlegebasecustom.woff") format("woff"),
+    url("../fonts/knowlegebasecustom.ttf") format("truetype"),
+    url("../fonts/knowlegebasecustom.svg#knowlegebasecustom") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "knowlegebasecustom" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="customicon-"]:before,
+[class*=" customicon-"]:before {
+  font-family: "knowlegebasecustom" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.customicon-add:before {
+  content: "\61";
+}
+.customicon-help:before {
+  content: "\62";
+}
+.customicon-help-with-bg:before {
+  content: "\63";
+}
+.customicon-help-with-bg-1:before {
+  content: "\64";
+}
+.customicon-history:before {
+  content: "\65";
+}
+.customicon-home:before {
+  content: "\66";
+}
+.customicon-image-placeholder:before {
+  content: "\67";
+}
+.customicon-import:before {
+  content: "\68";
+}
+.customicon-info:before {
+  content: "\69";
+}
+.customicon-lang-drop-down:before {
+  content: "\6a";
+}
+.customicon-latest-edited:before {
+  content: "\6b";
+}
+.customicon-latest-edited-1:before {
+  content: "\6c";
+}
+.customicon-launch:before {
+  content: "\6d";
+}
+.customicon-mail:before {
+  content: "\6e";
+}
+.customicon-messages:before {
+  content: "\6f";
+}
+.customicon-minimise:before {
+  content: "\70";
+}
+.customicon-more:before {
+  content: "\71";
+}
+.customicon-move-to:before {
+  content: "\72";
+}
+.customicon-notification-without-count:before {
+  content: "\73";
+}
+.customicon-pin-point:before {
+  content: "\74";
+}
+.customicon-published:before {
+  content: "\75";
+}
+.customicon-query-builder:before {
+  content: "\76";
+}
+.customicon-redirect:before {
+  content: "\77";
+}
+.customicon-right:before {
+  content: "\78";
+}
+.customicon-right-arrow:before {
+  content: "\79";
+}
+.customicon-screen-big:before {
+  content: "\7a";
+}
+.customicon-search:before {
+  content: "\41";
+}
+.customicon-settings:before {
+  content: "\42";
+}
+.customicon-solution:before {
+  content: "\43";
+}
+.customicon-solution-home:before {
+  content: "\44";
+}
+.customicon-sort:before {
+  content: "\45";
+}
+.customicon-ticket:before {
+  content: "\46";
+}
+.customicon-upload:before {
+  content: "\47";
+}
+.customicon-upvotes:before {
+  content: "\48";
+}
+.customicon-upvotes-1:before {
+  content: "\49";
+}
+.customicon-view:before {
+  content: "\4a";
+}
+.customicon-contact:before {
+  content: "\4b";
+}
+.customicon-danger-sing:before {
+  content: "\4c";
+}
+.customicon-date-range:before {
+  content: "\4d";
+}
+.customicon-delete:before {
+  content: "\4e";
+}
+.customicon-download:before {
+  content: "\4f";
+}
+.customicon-downvotes:before {
+  content: "\50";
+}
+.customicon-draft:before {
+  content: "\51";
+}
+.customicon-edit:before {
+  content: "\52";
+}
+.customicon-folder:before {
+  content: "\53";
+}
+.customicon-friends:before {
+  content: "\54";
+}
+.customicon-general:before {
+  content: "\55";
+}
+.customicon-go-back:before {
+  content: "\56";
+}
+.customicon-headphone:before {
+  content: "\57";
+}
+.customicon-add-new-category:before {
+  content: "\58";
+}
+.customicon-alphabetical:before {
+  content: "\59";
+}
+.customicon-alphabetical-1:before {
+  content: "\5a";
+}
+.customicon-analysis:before {
+  content: "\30";
+}
+.customicon-announcement:before {
+  content: "\31";
+}
+.customicon-aricales:before {
+  content: "\32";
+}
+.customicon-article:before {
+  content: "\33";
+}
+.customicon-article-2nd:before {
+  content: "\34";
+}
+.customicon-attech-file:before {
+  content: "\35";
+}
+.customicon-cancel:before {
+  content: "\36";
+}
+.customicon-category:before {
+  content: "\37";
+}
+.customicon-community-post:before {
+  content: "\38";
+}

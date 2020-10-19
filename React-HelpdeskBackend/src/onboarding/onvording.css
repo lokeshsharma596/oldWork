@@ -1,0 +1,136 @@
+.onboarding-para p{ 
+    font-family: 'AvenirNextLTPro-Regular';
+    font-weight: bold;
+    font-size: 22px;
+    color: #000000;
+}
+
+.onboarding-para h4{ 
+    font-family: 'AvenirNextLTPro-Regular';
+    font-size: 16px;
+    color: #808080;
+    font-weight: normal;
+}
+
+.onboarding-organisation .btn-organition{
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding: 10px 40px;
+}
+
+.onbording-main .onbording-main-container{
+    height: 100%;
+}
+
+.onbording-main-container .mainUpLogin {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 80px);
+}
+
+.onboarding-signUp{
+    width: 550px;
+    margin: auto;
+}
+
+.button-login-signin .google-pls-icon .gp-icon {
+    padding: 7px 10px !important;
+}
+
+.onboarding-signup-box-footer a.btnBlue, .onboarding-signup-box-footer button.btnOrange{
+    width: 250px;
+    margin: auto;
+}  
+
+.onboarding-congratulation{
+    background: #fff;
+    width: 700px;
+    margin: auto;
+    border-radius: 45px;
+    box-shadow: 0px 3px 96px rgba(0, 0, 0, 0.12);
+}
+
+.onboarding-congratulation .knowledge-card-alltitle .card-body-title {
+    font-size: 44px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.congra-filds{
+    width: calc(100% - 100px);
+    margin: auto;
+}
+
+.congra-filds .feilds-cong-row h5{
+    font-weight: normal;
+    font-family: 'AvenirNextLTPro-Bold';
+}
+
+.congra-filds .feilds-cong-row .notes{
+    color: #9A9A9A;
+    font-size: 14px;
+}
+
+.congra-filds .feilds-cong-row .notes a{
+    color: #64B5F6;
+}
+
+.congratulation-feilds-icon{
+    position: absolute;
+    right: 0px;
+    top: 12px;
+    z-index: 99;
+}
+
+.congratulation-feilds-icon span{
+    display: inline-block;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.congra-filds .feilds-cong-row .wrapperInfo input{
+    padding-right: 60px;
+}
+
+
+.add-meet-team input{
+    border: 1px solid #ddd !important;
+    height: 40px;
+    font-size: 12px;
+    border-radius: 6px !important;
+    box-sizing: border-box !important;
+    width: 100% !important;
+}    
+
+
+.add-meet-team label{
+    left: 10px;
+    background: #fff;
+    padding: 0px 2px;
+}
+
+
+.crose-add-meet{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 9;
+    cursor: pointer;
+}
+
+.popup_add_teams{
+    width: 600px;
+}
+
+.categroy-emails .material-switch>label::after{
+    margin-top: -11px;
+}
+
+.support-emails{
+    background: #64B5F6;
+    color: #fff;
+    text-align: center;
+}

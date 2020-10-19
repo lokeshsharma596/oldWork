@@ -1,0 +1,48 @@
+{
+  "name": "knowledge-base",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Lokesh Sharma",
+  "dependencies": {
+    "@tinymce/tinymce-react": "^3.6.1",
+    "algoliasearch": "^4.5.1",
+    "firebase": "^7.20.0",
+    "formik": "^2.1.4",
+    "jwt-decode": "^3.0.0-beta.2",
+    "query-string": "^6.13.2",
+    "react": "^16.13.1",
+    "react-content-loader": "^5.1.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0",
+    "react-html-parser": "^2.0.2",
+    "react-infinite-scroller": "^1.2.4",
+    "react-instantsearch-dom": "^6.7.0",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-tooltip": "^4.2.10",
+    "reading-time": "^1.2.0",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^1.1.3",
+    "tinymce-react": "^1.3.2",
+    "yup": "^0.29.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

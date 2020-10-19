@@ -1,0 +1,159 @@
+
+
+  @media (max-width: 1441px) {
+
+
+}
+
+
+
+/* 
+##Device = Desktops  
+##Screen = 1281px to higher resolution desktops
+*/
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1280px) and (max-width: 1440px) {
+    .signupFeilds {
+        padding-top: 35px;
+    }
+
+    .headings-login-signup h4 {
+        font-size: 26px;
+    }
+
+    .loginFooterReview {
+        bottom: 10px;
+    }
+
+}
+
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .signupFeilds {
+        padding-top: 40px;
+        width: 350px;
+    }
+
+    .headings-login-signup h4 {
+        font-size: 26px;
+    }
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  .sign-login {
+    background-image: inherit;
+    }
+    .signupFeilds {
+        width: 100%;
+        padding-top: 20px;
+    }
+    .review-companies {
+        margin: auto;
+    }
+
+    .registrationImgFilter .reviewcompaniesimg img {
+        height: 15px;
+    }
+
+    .headings-login-signup h4 {
+        font-size: 22px;
+    }
+
+    .reviewcompaniesimg {
+        width: 50px;
+        height: 20px;
+    }
+
+  
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  
+
+  .sign-login {
+    background-image: inherit;
+  }
+  .signupFeilds {
+      width: 100%;
+      padding-top: 20px;
+  }
+  .review-companies {
+      margin: auto;
+  }
+
+  .registrationImgFilter .reviewcompaniesimg img {
+      height: 15px;
+  }
+
+  .headings-login-signup h4 {
+      font-size: 22px;
+  }
+
+  .reviewcompaniesimg {
+      width: 50px;
+      height: 20px;
+  }
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .sign-login {
+      background-image: inherit;
+  }
+  .signupFeilds {
+      width: 100%;
+      padding-top: 20px;
+  }
+  .review-companies {
+      margin: auto;
+  }
+
+  .registrationImgFilter .reviewcompaniesimg img {
+      height: 15px;
+  }
+
+  .headings-login-signup h4 {
+      font-size: 22px;
+  }
+  
+  .reviewcompaniesimg {
+      width: 50px;
+      height: 20px;
+  }
+  
+
+}

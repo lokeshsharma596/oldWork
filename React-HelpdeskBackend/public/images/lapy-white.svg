@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="887" height="495.001" viewBox="0 0 887 495.001">
+  <defs>
+    <filter id="Union_1" x="0" y="0" width="887" height="495.001" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="13" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_5303" data-name="Group 5303" transform="translate(-468.929 -225.681)">
+    <g id="Group_5283" data-name="Group 5283" transform="translate(508 262)">
+      <g transform="matrix(1, 0, 0, 1, -39.07, -36.32)" filter="url(#Union_1)">
+        <path id="Union_1-2" data-name="Union 1" d="M18,417A18,18,0,0,1,0,399V388.588H809V399a18,18,0,0,1-18,18Zm80.312-28.413V30a30,30,0,0,1,30-30H705.562a30,30,0,0,1,30,30V388.588Z" transform="translate(39 36)" fill="#fff"/>
+      </g>
+      <text id="Knowledge_Base_Categories" data-name="Knowledge Base / Categories" transform="translate(160.929 47.68)" fill="#fff" font-size="9" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Knowledge Base / Categories</tspan></text>
+    </g>
+  </g>
+</svg>

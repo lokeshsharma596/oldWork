@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1853" height="296" viewBox="0 0 1853 296">
+  <defs>
+    <clipPath id="clip-Artboard_1">
+      <rect width="1853" height="296"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard – 1" clip-path="url(#clip-Artboard_1)">
+    <rect width="1853" height="296" fill="rgba(255,255,255,0)"/>
+    <g id="Group_4309" data-name="Group 4309" transform="translate(22157 21298)">
+      <rect id="Rectangle_1790" data-name="Rectangle 1790" width="1858" height="304" transform="translate(-22159 -21302)" fill="#1a81d9"/>
+      <circle id="Ellipse_165" data-name="Ellipse 165" cx="98" cy="98" r="98" transform="translate(-20411 -21360)" fill="#fff" opacity="0.123"/>
+      <path id="Polygon_10" data-name="Polygon 10" d="M96,0l96,167H0Z" transform="translate(-22202.697 -21297.861) rotate(-28)" fill="#fff" opacity="0.1"/>
+      <path id="Polygon_11" data-name="Polygon 11" d="M23,0,46,40H0Z" transform="translate(-21934.918 -21243.82) rotate(30)" fill="#fff" opacity="0.1"/>
+      <circle id="Ellipse_166" data-name="Ellipse 166" cx="38" cy="38" r="38" transform="translate(-22171 -21320)" fill="#fff" opacity="0.123"/>
+      <path id="Polygon_12" data-name="Polygon 12" d="M23,0,46,40H0Z" transform="translate(-20640.918 -21093.82) rotate(30)" fill="#fff" opacity="0.1"/>
+      <path id="Polygon_13" data-name="Polygon 13" d="M23,0,46,40H0Z" transform="translate(-20954.266 -21273.047) rotate(-7)" fill="#fff" opacity="0.1"/>
+    </g>
+  </g>
+</svg>

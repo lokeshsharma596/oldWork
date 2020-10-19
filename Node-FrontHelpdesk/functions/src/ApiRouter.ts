@@ -1,0 +1,40 @@
+const manageRouter = require("express").Router();
+const ArticleController = require('./controllers/ArticleController');
+const FolderController = require('./controllers/FolderController')
+const UserController = require('./controllers/UserController')
+const CommonController = require('./controllers/CommonController')
+const CategoryController = require('./controllers/CategoryController')
+const TicketController = require('./controllers/TicketController')
+const Validator = require('./lib/validator')
+
+manageRouter.get('/listCategories', Validator.listCategories, CategoryController.listCategories);
+
+manageRouter.get('/listFolders', Validator.listFolders,FolderController.listFolders);
+manageRouter.get('/listFolderNames', Validator.listFolderNames,FolderController.listFolderNames);
+manageRouter.get('/getFolderPageSeo',Validator.getFolderPageSeo, FolderController.getFolderPageSeo);
+
+
+manageRouter.get('/getArticle', Validator.getArticle,ArticleController.getArticle);
+manageRouter.get('/listArticles', Validator.listArticles,ArticleController.listArticles);
+manageRouter.get('/getAllArticlesSeo',Validator.getAllArticlesSeo, ArticleController.getAllArticlesSeo);
+manageRouter.get('/getPreviewArticle', Validator.getPreviewArticle,ArticleController.getPreviewArticle);
+manageRouter.post('/checkVoteStatus',ArticleController.checkVoteStatus);
+
+manageRouter.get('/getSettings', Validator.getSettings,CommonController.getSettings);
+manageRouter.post('/increaseCount', CommonController.increaseCount);
+manageRouter.post('/submitEmail', CommonController.submitEmail);
+manageRouter.post('/sendRecaptcha', Validator.sendRecaptcha,CommonController.sendRecaptcha);
+
+
+manageRouter.post('/checkChildUserExist',Validator.checkChildUserExist, UserController.checkChildUserExist);
+manageRouter.post('/addChildUser',Validator.addChildUser, UserController.addChildUser);
+manageRouter.post('/signup', Validator.signup, UserController.signup);
+manageRouter.post('/verifyOtpAndUpdatePassword',Validator.verifyOtpAndUpdatePassword, UserController.verifyOtpAndUpdatePassword);
+manageRouter.post('/resendVerificationCode',Validator.resendVerificationCode, UserController.resendVerificationCode);
+manageRouter.post('/verifyOtpAndCreateUser',Validator.verifyOtpAndCreateUser, UserController.verifyOtpAndCreateUser);
+manageRouter.post('/forgotPasswordSendCode',Validator.forgotPasswordSendCode, UserController.forgotPasswordSendCode);
+manageRouter.post('/login', Validator.login, UserController.login);
+
+manageRouter.get('/getTickets',TicketController.getTickets);
+
+module.exports = manageRouter;
